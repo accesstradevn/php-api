@@ -1,0 +1,24 @@
+{
+    "name": "accesstrade/api",
+    "type": "library",
+    "description": "ACCESSTRADE api library",
+    "keywords": ["accesstrade","isvn", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quang Tam Vu",
+            "email": "tamvu@interspace.vn"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "AccessTrade\\Api\\": "src/" }
+    },
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    }
+}
